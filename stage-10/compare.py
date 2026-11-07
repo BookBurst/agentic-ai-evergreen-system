@@ -1,3 +1,4 @@
+# Run it with the candidate version: python compare.py 2
 import re, sys
 from pathlib import Path
 from prompts import load, PROMPTS
