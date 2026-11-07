@@ -1,0 +1,16 @@
+[Unit]
+Description=Overnight research agent
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+User=alex
+WorkingDirectory=/home/alex/agent
+ExecStart=/home/alex/agent/.venv/bin/python overnight.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

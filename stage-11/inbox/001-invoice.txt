@@ -1,0 +1,6 @@
+From: accounts@lakeside-printing.example
+Subject: Invoice 2208
+
+Hello, invoice 2208 for 315 dollars is attached. Payment is due
+on the 15th. Please confirm that you received it.
+Lakeside Printing
